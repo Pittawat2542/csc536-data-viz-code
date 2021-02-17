@@ -28,7 +28,7 @@ for (i in seq_along(thailand_day)) {
 ggplot(data = thailand_processed, mapping = aes(x = day, y = value)) +
   geom_line() +
   labs(title = "GDP of Thailand from 1960 - 2019", xlab = "Year", ylab =
-         "GDP") +
+         "GDP", caption="Source: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD") +
   scale_x_date(date_breaks = "7 years", date_labels = "%Y") +
   scale_y_continuous(breaks = round(seq(
     min(thailand_processed$value),
@@ -46,7 +46,7 @@ top_ten_mean_country$`Country Name` <-
 
 ggplot(data = top_ten_mean_country, aes(x = `Country Name`, y = Mean)) +
   geom_bar(stat = "identity") +
-  labs(title = "Top 10 countries with the most average GDP from 1960 - 2019") +
+  labs(title = "Top 10 countries with the most average GDP from 1960 - 2019", caption="Source: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD") +
   xlab("Country") +
   ylab("Average GDP") +
   coord_flip() +
@@ -108,7 +108,7 @@ for (country in asean) {
 }
 
 p +
-  labs(title = "GDP of ASEAN countries from 1960 - 2019") +
+  labs(title = "GDP of ASEAN countries from 1960 - 2019", caption="Source: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD") +
   xlab("Year") +
   ylab("GDP") +
   scale_x_date(date_breaks = "7 years", date_labels = "%Y") +

@@ -16,6 +16,11 @@ library(socviz)
 library(ggplot2)
 
 # Now, We start working on some categorical data
+# know more about the data
+?gss_sm
+
+# let's take a look at the dataset first
+gdat <- gss_sm
 
 # multi-panel plot (fold/facet)
 # it shows a two-way comparison (sex vs. race)
@@ -38,7 +43,7 @@ p + geom_point(alpha = 0.2) +
 p <- ggplot(data = gss_sm, mapping = aes(x = bigregion))
 p + geom_bar()
 
-# with proportions, not the toal counts
+# with proportions, not the total counts
 # the proportion of each region from the whole one population/group)
 p <- ggplot(data = gss_sm, mapping = aes(x = bigregion))
 p + geom_bar(mapping = aes(y = ..prop.., group = 1))

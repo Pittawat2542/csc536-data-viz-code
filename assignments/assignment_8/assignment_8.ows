@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(115.0, 141.0)" />
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(115.0, 142.0)" />
 		<node id="1" name="Correlations" qualified_name="Orange.widgets.data.owcorrelations.OWCorrelations" project_name="Orange3" version="" title="Correlations" position="(276.065934065934, 213.32967032967028)" />
 		<node id="2" name="Preprocess" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" project_name="Orange3" version="" title="Preprocess" position="(273.89010989010984, 315.23076923076917)" />
 		<node id="3" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(266.25274725274716, 135.80219780219778)" />
 		<node id="4" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Age Distributions" position="(497.6263736263737, 163.78021978021985)" />
-		<node id="5" name="Violin Plot" qualified_name="Orange.widgets.visualize.owviolinplot.OWViolinPlot" project_name="Orange3" version="" title="Age Violin Plot" position="(514.2087912087912, 614.7032967032966)" />
+		<node id="5" name="Violin Plot" qualified_name="Orange.widgets.visualize.owviolinplot.OWViolinPlot" project_name="Orange3" version="" title="Age Violin Plot" position="(533.9890109890109, 559.7582417582416)" />
 		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(147.0, 39.0)" />
 		<node id="7" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info" position="(244.0, 39.0)" />
 		<node id="8" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Age Box Plot" position="(507.6923076923075, 258.24175824175825)" />
 		<node id="9" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Resting Blood Pressure Box Plot" position="(581.3186813186812, 331.86813186813174)" />
 		<node id="10" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Serum Cholestoral in mg/dl Box Plot" position="(663.7362637362635, 406.81318681318663)" />
-		<node id="11" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="ST Depression Induced by Exercise Relative to Rest Box Plot" position="(752.7472527472526, 532.5274725274724)" />
+		<node id="11" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="ST Depression Induced by Exercise Relative to Rest Box Plot" position="(743.9560439560438, 487.4725274725273)" />
 		<node id="12" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(192.30769230769215, 612.0879120879118)" />
 		<node id="13" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(394.5054945054945, 610.9890109890108)" />
 		<node id="14" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(305.4945054945055, 489.0109890109889)" />
@@ -38,7 +38,7 @@
 	<annotations />
 	<thumbnail />
 	<node_properties>
-		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': '/Users/pete.pittawat/Downloads/heart.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 14, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': '/Users/pete.pittawat/Downloads', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd3\x00\x00\x01=\x00\x00\x04\x18\x00\x00\x02\xb4\x00\x00\x02\xd3\x00\x00\x01Y\x00\x00\x04\x18\x00\x00\x02\xb4\x00\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x02\xd3\x00\x00\x01Y\x00\x00\x04\x18\x00\x00\x02\xb4', '__version__': 3}</properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': '/Users/pete.pittawat/KMUTT/Computer Science/3-Junior/2-Semester 2/csc536-data-viz-code/assignments/assignment_8/heart.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 14, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': '/Users/pete.pittawat/Downloads/heart.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 14, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': '/Users/pete.pittawat/KMUTT/Computer Science/3-Junior/2-Semester 2/csc536-data-viz-code/assignments/assignment_8', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd3\x00\x00\x01=\x00\x00\x04\x1f\x00\x00\x02\xb4\x00\x00\x02\xd3\x00\x00\x01Y\x00\x00\x04\x18\x00\x00\x02\xb4\x00\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x02\xd3\x00\x00\x01Y\x00\x00\x04\x1f\x00\x00\x02\xb4', '__version__': 3}</properties>
 		<properties node_id="1" format="pickle">gASVoQEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBjb3JyZWxhdGlvbl90eXBllEsA
 jBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAALHAAABJAAABCQAAALPAAACxwAAAUAA
 AAQkAAACzwAAAAAAAAAABwAAAALHAAABQAAABCQAAALPlIwLX192ZXJzaW9uX1+USwOMEGNvbnRl
@@ -87,7 +87,7 @@ AmgcSwF1jAVtZXRhc5R9lHViYXUu
 </properties>
 		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01\x0b\x00\x00\x04\xbf\x00\x00\x03\x06\x00\x00\x02@\x00\x00\x01'\x00\x00\x04\xbf\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x02@\x00\x00\x01'\x00\x00\x04\xbf\x00\x00\x03\x06", 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
 		<properties node_id="7" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xef\x00\x00\x00\xf0\x00\x00\x04\x10\x00\x00\x03"\x00\x00\x02\xef\x00\x00\x01\x0c\x00\x00\x04\x10\x00\x00\x03"\x00\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x02\xef\x00\x00\x01\x0c\x00\x00\x04\x10\x00\x00\x03"', '__version__': 1}</properties>
-		<properties node_id="8" format="pickle">gASVWwIAAAAAAAB9lCiMB2NvbXBhcmWUSwKMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+		<properties node_id="8" format="pickle">gASVYwIAAAAAAAB9lCiMB2NvbXBhcmWUSwKMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
 eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
 ZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAApwAAAUQAAAQqAAADUwAAAKcAAAFgAAAEKgAAA1MAAAAA
 AAAAAAcAAAAApwAAAWAAAAQqAAADU5SMEHNob3dfYW5ub3RhdGlvbnOUiIwLc2hvd19sYWJlbHOU
@@ -95,9 +95,9 @@ iIwNc2lnX3RocmVzaG9sZJRHP6mZmZmZmZqMCnNvcnRfZnJlcXOUiYwIc3RhdHRlc3SUSwCMCXN0
 cmV0Y2hlZJSIjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lk
 Z2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJYXR0cmlidXRllIwD
 YWdllEtmhpSMCWdyb3VwX3ZhcpSMA3NleJRLZYaUjAlzZWxlY3Rpb26UKUr+////hpRoDUsBdYwK
-YXR0cmlidXRlc5R9lChoGEsCaBtLAYwCY3CUSwKMCHRyZXN0YnBzlEsCjARjaG9slEsCjANmYnOU
-SwGMB3Jlc3RlY2eUSwKMB3RoYWxhY2iUSwKMBWV4YW5nlEsBjAdvbGRwZWFrlEsCjAVzbG9wZZRL
-AowCY2GUSwKMBHRoYWyUSwKMBnRhcmdldJRLAXWMBW1ldGFzlH2UdWJhdS4=
+YXR0cmlidXRlc5R9lCiMA2FnZZRLAowDc2V4lEsBjAJjcJRLAowIdHJlc3RicHOUSwKMBGNob2yU
+SwKMA2Zic5RLAYwHcmVzdGVjZ5RLAowHdGhhbGFjaJRLAowFZXhhbmeUSwGMB29sZHBlYWuUSwKM
+BXNsb3BllEsCjAJjYZRLAowEdGhhbJRLAowGdGFyZ2V0lEsBdYwFbWV0YXOUfZR1YmF1Lg==
 </properties>
 		<properties node_id="9" format="pickle">gASVWwIAAAAAAAB9lCiMB2NvbXBhcmWUSwKMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
 eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
@@ -139,8 +139,8 @@ lEsCjAVzbG9wZZRLAowCY2GUSwKMBHRoYWyUSwKMBnRhcmdldJRLAXWMBW1ldGFzlH2UdWJhdS4=
 		<properties node_id="13" format="pickle">gASVCgEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
 lENCAdnQywADAAAAAAH3AAAA8QAABPUAAAMAAAAB9wAAAQ0AAAT1AAADAAAAAAAAAAAABwAAAAH3
 AAABDQAABPUAAAMAlIwJc2VsZWN0aW9ulF2UjAtzY29yZV90YWJsZZR9lIwMc2hvd25fc2NvcmVz
-lI+UKIwDTUFFlIwEUk1TRZSMAlIylIwDQVVDlIwDTVNFlIwCQ0GUjAlQcmVjaXNpb26UjAZSZWNh
-bGyUjAJGMZSQc4wLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
+lI+UKIwEUk1TRZSMBlJlY2FsbJSMAkYxlIwCUjKUjAlQcmVjaXNpb26UjANBVUOUjANNQUWUjAJD
+QZSMA01TRZSQc4wLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
 </properties>
 		<properties node_id="14" format="pickle">gASVjwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
 cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAkAAAAEK
